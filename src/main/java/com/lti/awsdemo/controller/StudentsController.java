@@ -12,4 +12,9 @@ public class StudentsController {
         return "aws demo";
     }
 
+    @GetMapping("name")
+	public String name() {
+		return "ram";
+	}
+
 }
