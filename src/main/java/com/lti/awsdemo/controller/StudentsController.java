@@ -14,7 +14,7 @@ public class StudentsController {
 
     @GetMapping("name")
 	public String name() {
-		return "ram";
+		return "welcome  ram to aws";
 	}
 
 }
